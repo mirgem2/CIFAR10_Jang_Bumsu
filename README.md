@@ -25,3 +25,6 @@ python test.py
 > 1. tencrop
 > 2. normalize
 > 3. averaging ensembel
+
+#### please send me some emails or write on issues tab when issues occure
+##### email: bsjang1208@gmail.com
