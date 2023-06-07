@@ -56,9 +56,7 @@ def cutmix(size, lam):
 
     return bbx1, bby1, bbx2, bby2
 
-# Define training function that takes in hyperparameter 
-# values from `wandb.config` and uses them to train a 
-# model and return metric
+# Define training function
 def train_one_epoch(trainloader, model, optimizer, criterion, epoch): 
     model.train()
     running_loss = 0.0
